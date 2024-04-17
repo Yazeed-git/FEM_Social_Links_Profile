@@ -1,0 +1,106 @@
+/* General styles */
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    line-height: 1.6;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+main{
+    padding: 1em;
+}
+
+.profile-card{
+    background-color: hsl(0, 0%, 12%);
+    padding: 1.5em;
+    border-radius: 8px;
+    text-align: center;
+    transition: all .3s ease-in;
+}
+
+.profile-card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile-details{
+    margin-bottom: 1.5em;
+}
+
+.profile-details h1{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.profile-details p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: hsl(75, 94%, 57%);
+}
+
+.profile-desc{
+    margin-bottom: 1.2em;
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.links-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.link{
+    color: hsl(0, 0%, 100%);
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: hsl(0, 0%, 20%);
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.link:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+.link:last-of-type{
+    margin-bottom: 0;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+    color: hsl(75, 86%, 86%);
+}
+
+@media screen and (min-width: 768px){
+    main{
+        width: 400px;
+    }
+
+    .profile-card{
+        max-width:100%;
+        padding: 2em;
+    }
+}
