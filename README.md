@@ -30,8 +30,8 @@ The challenge is about taking a design of a Social links profile card design and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://fem-social-links-profile-theta.vercel.app/)
+- Live Site URL: [Add live site URL here](https://fem-social-links-profile-theta.vercel.app/)
 
 ## My process
 
@@ -46,74 +46,23 @@ The challenge is about taking a design of a Social links profile card design and
 
 There are a couple of things I learnt while building this project;
 
-- How to style the list items, specifically the numbers or bullet points, I did this by using the pseudo selector: "::marker" which enables the user to select the content before the list and style it to change the color, font-size, font-weight, and even change it to an image.
+- How to build a simple project as quick as possible by setting a short time for its completion and prioritizing the elements and properties that are necessary to complete the project
 
-- Doing this project was also a re-introduction of tables as I haven't used the table tags in a while so learning about the elements and structure of the table was cool.
-
-- I had also forgotten the syntax for media queries and so it was good to learn that and use it in a simple project like this one.
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-
-	<table>
-          <tr>
-            <td>Calories</td>
-            <td class="td_bold  td_r">227kcal</td>
-          </tr>
-
-          <tr>
-            <td>Carbs</td>
-            <td class="td_bold  td_r">0g</td>
-          </tr>
-          
-          <tr>  
-            <td>Protein</td>
-            <td class="td_bold  td_r">20g</td>
-          </tr>
-          <tr>
-            <td class="td_nbb">Fat</td>
-            <td class="td_bold td_nbb td_r" >22g</td>
-          </tr>
-        </table>
-
-```
-
-```css
-
-       .ing-section .list-items::marker, .ins-section .list-items::marker{
-         color: #854632;
-         font-weight: bold;
-       }
-
-       .prep-section li::marker, .ing-section li::marker{
-         font-size: 12px;
-
-       }
-}
-```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-- I want to continue learning the cool ways to style list items, media queries and their best practices, page layout for mobile and desktop design as well as how to effectively create tables.
+- Widths and max-widths were properties used and proved to be useful, I have seen them used before to make web content scalable, so therefore in future projects, I intend to implement them for responsivity 
 
 
 ### Useful resources
 
-https://scrimba.com/learn/responsive/media-query-basics - This helped me quickly understand media query syntax, the meaning behind each keywords used in the syntax and the appropriate situations to use certain syntax
-
-https://www.youtube.com/watch?v=bRYwmmLC_Ns - This video created by Kevin Powell helped me understand how to create and style lists in css.
+N/A
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Ayaat](https://fem-social-links-profile-theta.vercel.app/)
+- Frontend Mentor - [@yazeed-git](https://www.frontendmentor.io/profile/Yazeed-git)
 
 ## Acknowledgments
 
-- Kevin Powell - Youtube video on styling lists
+N/A
